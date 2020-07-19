@@ -6,11 +6,11 @@
 + 顺序为在笔记之前，按照创建顺序从上到下。
 
 ***
-## HelloWorld.java 相关
+## ***HelloWorld.java 相关***
 1. 首先Java区分大小写。
 2. public称为访问修饰符（access modifier）,用于控制程序的其他部分对代码访问级别。在后续内容详细解释。
 3. class 表明这个程序全部包含在类中。
-4. 类名命名规范： 必须字母开头，由字母，数字任意组合，不能使用保留字。一般每个单词首字母大写。
+4. 类名命名规范： 必须字母开头，由字母，数字任意组合，不能使用保留字。一般每个单词首字母大写（Pascal命名法）。
 5. 源代码的文件名必须与公共类名相同，HelloWorld.java。
 6. main函数声明方法。
 7. System.out.println方法，通用语法为：object.method(parameters)。即，使用System.out对象，调用它的println方法。
@@ -40,3 +40,12 @@ Java中整型的取值范围与运行Java代码的机器无关。
 double精度是float类型的两倍，也被称为双进度数值。float数值后缀为F或f。double类型可以没有后缀，也可为D或d。
 
 ### char类型和Unicode
+
+
+## 变量
+### 变量名的命名规则
++ 符合表示符命名规则
++ 符合驼峰法命名规范
+    1. age
+    2. studentName
++ 尽量简单，明确意义。
